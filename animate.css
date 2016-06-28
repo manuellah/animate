@@ -11,6 +11,7 @@ section {
     margin: 5px;
     overflow: hidden;
     position: relative;
+    opacity: 0.5;
 
 }
 article {
@@ -25,15 +26,17 @@ article:after {
 .banner {
     position: absolute;
     top: 45%;
-    color: firebrick;
+    color: blue;
     margin: 0 5%;
     font-size: 1.5em;
     text-align: center;
 }
 section:hover {
     width: 50%;
+    opacity: 1;
 }
 .text {
     margin: auto;
     width: 60%;
+    padding: 5%;
 }
