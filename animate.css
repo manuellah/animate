@@ -4,8 +4,8 @@ section {
     background-color: yellow;
     border: 1px solid black;
     height: 200px;
-    -webkit-transition: width 2s; /* Safari */
-    transition: width 2s;
+    -webkit-transition: width 2s, transform 2s; /* Safari */
+    transition: width 2s, transform 6s;
     margin: auto;
     float: left;
     margin: 5px;
@@ -45,6 +45,7 @@ aside:hover {
 section:hover {
     width: 50%;
     opacity: 1;
+    transform: rotateX(360deg);
 }
 .text {
     margin: auto;
