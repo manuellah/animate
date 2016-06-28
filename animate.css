@@ -1,13 +1,25 @@
 section {
-    width: 300px;
-    height: auto;
+    width: 45%;
+    
     background-color: yellow;
     border: 1px solid black;
-    
+    height: 200px;
     -webkit-transition: width 2s; /* Safari */
     transition: width 2s;
     margin: auto;
+    float: left;
+    margin: 5px;
+    overflow: hidden;
 
+}
+article {
+    margin: auto;
+    width: 60%;
+}
+article:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 section:hover {
     width: 50%;
