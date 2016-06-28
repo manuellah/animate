@@ -10,6 +10,7 @@ section {
     float: left;
     margin: 5px;
     overflow: hidden;
+    position: relative;
 
 }
 article {
@@ -20,6 +21,14 @@ article:after {
     content: "";
     display: block;
     clear: both;
+}
+.banner {
+    position: absolute;
+    top: 45%;
+    color: firebrick;
+    margin: 0 5%;
+    font-size: 1.5em;
+    text-align: center;
 }
 section:hover {
     width: 50%;
