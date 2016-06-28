@@ -23,6 +23,17 @@ article:after {
     display: block;
     clear: both;
 }
+aside {
+    text-align: center;
+    font-size: 3em;
+    color: crimson;
+    transition: transform 4s;
+    
+}
+aside:hover {
+    transform: rotateY(360deg);
+    color: aqua;
+}
 .banner {
     position: absolute;
     top: 45%;
