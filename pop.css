@@ -1,0 +1,39 @@
+#pop-up {
+    position: relative;
+    width: 60%;
+    margin: auto;
+    top: -300px;
+    animation: drop 1s linear forwards;
+}
+.container {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    margin: auto;
+
+}
+button {
+    border-radius: 35%;
+    background-color: blueviolet;
+    padding: 5px;
+}
+input {
+    padding: 5px;
+    border-radius: 10%;
+}
+@keyframes drop {
+    0% {
+         top: -300px;
+        transform: translateY(650px)
+    }
+    50% {
+        transform: translateY(400px)
+    }
+    70% {
+        transform: translateY(550px)
+    } 
+    100% {
+        transform: translateY(500px)
+    }
+}
