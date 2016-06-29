@@ -3,7 +3,8 @@
     width: 60%;
     margin: auto;
     top: -300px;
-    animation: drop 1s linear forwards;
+    animation:  drop 1s forwards, swing 2s 2s forwards;
+    transform-origin: 10px 10px;
 }
 .container {
     text-align: center;
@@ -34,5 +35,20 @@ input {
     } 
     100% {
         transform: translateY(500px)
+    }
+}
+@keyframes swing {
+    0%{ 
+        transform: translateY(500px) rotateZ(0deg);
+    
+    }
+    60%{ 
+        transform: translateY(500px) rotateZ(120deg);
+    }
+    80%{
+        transform: translateY(500px) rotateZ(80deg);
+    }
+    100%{
+         transform: translateY(500px) rotateZ(90deg);
     }
 }
